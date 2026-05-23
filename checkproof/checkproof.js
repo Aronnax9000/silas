@@ -13,9 +13,9 @@ function validate_proof(thing_to_prove, proof) {
 function check_line(proof_line) {
   var success = false
   if(check_rule_0(proof_line)) { 
-    truths.push(proof_line + " " Rule 0")
+    truths.push(proof_line + " Rule 0")
   } else if(check_rule_S(proof_line)) {
-    truths.push(proof_line + " " Rule S")
+    truths.push(proof_line + " Rule S")
   }
 }
 
