@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
   seed_truths()
   display_truths()
   // Add button click listener
-  document.getElementById("do_check").addEventListener("click", check_proof)
+  document.getElementById("check_proof").addEventListener("click", check_proof)
 });
 
 
