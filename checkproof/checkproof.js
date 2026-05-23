@@ -7,7 +7,7 @@ var truths = []
 
 function validate_proof(thing_to_prove, proof) {
   alert("Checking proof of " + thing_to_prove + ":\n" + proof)
-  proof.forEach((proof_line) => { check_line })
+  proof.forEach((proof_line) => { check_line(proof_line) })
 }
   
 function check_line(proof_line) {
