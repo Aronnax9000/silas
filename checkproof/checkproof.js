@@ -19,6 +19,7 @@ function display_truths() {
   })
 }
 document.addEventListener("DOMContentLoaded", function(event) { 
+  alert('hello')
   seed_truths()
   display_truths()
 });
