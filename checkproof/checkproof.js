@@ -51,7 +51,9 @@ function display_truths() {
 
   truths_element.innerHTML = "Current Truths: " + truths.length + "\n"
   truths.forEach((value, index, array) => {
-    truths_element.innerHTML +=  "Truth " + index + ": " + value + "\n"
+    var truth = "Truth " + index + ": " + value + "\n"
+    alert('appending truth " + truth)
+    truths_element.innerHTML +=  truth
   })
 }
 
