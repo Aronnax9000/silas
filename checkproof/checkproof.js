@@ -35,7 +35,7 @@ function display_truths() {
 
 function check_proof() {
   var thing_to_prove = thing_to_prove_element.value
-  var proof = thing_to_prove_element.innerHTML.split('\n');
+  var proof = thing_to_prove_element.innerHTML.split(/\r?\n/)
   
   validate_proof(thing_to_prove, proof)
   display_truths()
