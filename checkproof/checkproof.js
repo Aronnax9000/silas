@@ -1,9 +1,5 @@
 // Checkproof
 
-document.addEventListener("DOMContentLoaded", function(event) { 
-  seed_truths()
-  display_truths()
-});
 
 
 var truths = []
@@ -22,3 +18,7 @@ function display_truths() {
     truth_element.innerhtml += text_to_add
   })
 }
+document.addEventListener("DOMContentLoaded", function(event) { 
+  seed_truths()
+  display_truths()
+});
