@@ -14,8 +14,8 @@ function seed_truths() {
 function display_truths() {
   var truth_element = getElementById("truths")
   truth_element.innerHtml = ""
-  truths.forEach(value => {
-  truth_element.innerhtml += 
+  truths.forEach(value, index => {
+  truth_element.innerhtml += index + " " + value + "\n"
 })
   
 }
