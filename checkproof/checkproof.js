@@ -15,9 +15,7 @@ function seed_truths() {
 function display_truths() {
   var truth_element = document.getElementById("truths")
   truth_element.innerHTML = "Current Truths:\n"
-  
   truths.forEach(value, index, array => {
-    
     truth_element.innerHTML += value + "\n"
   })
 }
