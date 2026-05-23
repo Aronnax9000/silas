@@ -20,15 +20,15 @@ function check_line(proof_line) {
 }
 
 function check_rule_0(proof_line) {
-  alert('rule 0: ' + proof_line)
   if(proof_line == '0')
     return true
   return false
 }
 function check_rule_S(proof_line) {
-  alert('rule S: ' + proof_line)
+  
   truths.forEach((truth) => { 
     carving = truth.split(" ")[0]
+    alert('rule S: ' + proof_line)
     if(proof_line == "S" + carving) {
       return true
     }
@@ -61,7 +61,7 @@ function display_truths() {
 function check_proof() {
   var thing_to_prove = thing_to_prove_element.value
   var proof = proof_element.value.split(/\r?\n/)
-  
+  truths.length = 0
   validate_proof(thing_to_prove, proof)
   display_truths()
 }
