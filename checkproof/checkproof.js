@@ -2,14 +2,16 @@
 
 var truths_element
 var proof_element
+var thing_to_prove_element
 
-function validate_proof() {
-  
+function validate_proof(thing_to_prove, proof) {
+  alert("Checking proof of " + thing_to_prove)
 }
   
 
 document.addEventListener("DOMContentLoaded", function(event) { 
   truths_element = document.getElementById("truths")
+  thing_to_prove_element = document.getElementById("thing_to_prove")
   seed_truths()
   display_truths()
   // Add button click listener
@@ -32,6 +34,9 @@ function display_truths() {
 }
 
 function check_proof() {
-  validate_proof()
+  var thing_to_prove = thing_to_prove_element.value\
+  var proof = thing_to_prove_element.innerHTML.split('\n');
+  
+  validate_proof(thing_to_prove, proof)
   display_truths()
 }
