@@ -15,6 +15,7 @@ function check_line(proof_line) {
   if(check_rule_0(proof_line)) { 
     truths.push(proof_line + " Rule 0")
   } else if(check_rule_S(proof_line)) {
+    alert("pushing " + proof_line)
     truths.push(proof_line + " Rule S")
   }
 }
@@ -41,15 +42,10 @@ document.addEventListener("DOMContentLoaded", function(event) {
   truths_element = document.getElementById("truths")
   thing_to_prove_element = document.getElementById("thing_to_prove")
   proof_element = document.getElementById("proof")
-  // seed_truths()
-  display_truths()
   // Add button click listener
   document.getElementById("check_proof").addEventListener("click", check_proof)
 });
 
-function seed_truths() {
-  truths.push("0 Rule 0")
-}
 
 function display_truths() {
 
