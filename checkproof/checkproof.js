@@ -9,10 +9,30 @@ function validate_proof(thing_to_prove, proof) {
   alert("Checking proof of " + thing_to_prove + ":\n" + proof)
   proof.forEach((proof_line) => { check_line(proof_line) })
 }
-  
+
 function check_line(proof_line) {
-  alert("check line " + proof_line)
+  var success = false
+  if(check_rule_0(proof_line)) { 
+    truths.push(proof_line + " " Rule 0")
+  } else if(check_rule_S(proof_line)) {
+    truths.push(proof_line + " " Rule S")
+  }
 }
+
+function check_rule_0(proof_line) {
+  if(proof_line == '0')
+    return true
+  return false
+}
+function check_rule_S(proof_line) {
+  truths.forEach((truth) => { 
+    carving = truth.split(" ")[0]
+    if(proof_line == "S" + carving) {
+      return true
+    }
+    return false
+  })
+}  
 
 document.addEventListener("DOMContentLoaded", function(event) { 
   truths_element = document.getElementById("truths")
