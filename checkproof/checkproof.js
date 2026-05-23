@@ -32,6 +32,7 @@ function check_rule_S(proof_line) {
     alert('rule S: ' + proof_line + "C" + carving + ".")
     if(proof_line == carving) {
       alert("it's true!")
+       truths.push(proof_line + " Rule S")
       return true
     }
     return false
