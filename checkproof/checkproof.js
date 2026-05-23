@@ -15,6 +15,7 @@ function seed_truths() {
 function display_truths() {
   var truth_element = document.getElementById("truths")
   truth_element.innerHtml = ""
+  alert('display_truths()')
   truths.forEach(value, index, array => {
     text_to_add = index + " " + value + "\n"
     alert(text_to_add)
