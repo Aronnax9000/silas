@@ -3,6 +3,7 @@
 document.addEventListener("DOMContentLoaded", function(event) { 
   seed_truths()
   display_truths()
+  // Add button click listener
   document.getElementById("do_check").addEventListener("click", do_check)
 });
 
