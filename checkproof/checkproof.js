@@ -7,20 +7,21 @@ var truths = []
 
 function validate_proof(thing_to_prove, proof) {
   alert("Checking proof of " + thing_to_prove)
+  proof.forEach((proof_line) => check_line)
 }
   
+function check_line(proof_line) {
+  alert("check line " + proof_line)
+}
 
 document.addEventListener("DOMContentLoaded", function(event) { 
   truths_element = document.getElementById("truths")
   thing_to_prove_element = document.getElementById("thing_to_prove")
-  seed_truths()
+  // seed_truths()
   display_truths()
   // Add button click listener
   document.getElementById("check_proof").addEventListener("click", check_proof)
 });
-
-
-
 
 function seed_truths() {
   truths.push("0 Rule 0")
@@ -35,7 +36,6 @@ function display_truths() {
 }
 
 function check_proof() {
-  alert('calling validateproof')
   var thing_to_prove = thing_to_prove_element.value
   var proof = thing_to_prove_element.innerHTML.split(/\r?\n/)
   
