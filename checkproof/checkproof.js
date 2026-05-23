@@ -30,6 +30,7 @@ function check_rule_S(proof_line) {
     carving = "S" + truth.split(" ")[0]
     alert('rule S: ' + proof_line + "C" + carving)
     if(proof_line == carving) {
+      alert('it's true!')
       return true
     }
     return false
