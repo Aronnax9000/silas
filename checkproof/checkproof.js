@@ -3,6 +3,7 @@
 document.addEventListener("DOMContentLoaded", function(event) { 
   seed_truths()
   display_truths()
+  document.getElementById("do_check").addEventListener("click", do_check)
 });
 
 
@@ -18,4 +19,8 @@ function display_truths() {
   truths.forEach((value, index, array) => {
     truth_element.innerHTML +=  "Truth " + value + "\n"
   })
+}
+
+function do_check() {
+  alert("do_check")
 }
