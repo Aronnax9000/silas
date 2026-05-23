@@ -1,10 +1,19 @@
 // Checkproof
 
+var truths_element
+var proof_element
+
+function validate_proof() {
+  
+}
+  
+
 document.addEventListener("DOMContentLoaded", function(event) { 
+  truths_element = document.getElementById("truths")
   seed_truths()
   display_truths()
   // Add button click listener
-  document.getElementById("do_check").addEventListener("click", do_check)
+  document.getElementById("do_check").addEventListener("click", check_proof)
 });
 
 
@@ -15,13 +24,14 @@ function seed_truths() {
 }
 
 function display_truths() {
-  var truth_element = document.getElementById("truths")
-  truth_element.innerHTML = "Current Truths " + truths.length + ":\n"
+  var
+  truths_element.innerHTML = "Current Truths: " + truths.length + "\n"
   truths.forEach((value, index, array) => {
-    truth_element.innerHTML +=  "Truth " + value + "\n"
+    truths_element.innerHTML +=  "Truth " + index + ": " + value + "\n"
   })
 }
 
-function do_check() {
-  alert("do_check")
+function check_proof() {
+  validate_proof()
+  display_truths()
 }
