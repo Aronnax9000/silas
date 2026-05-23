@@ -13,7 +13,7 @@ function seed_truths() {
 }
 
 function display_truths() {
-  var truth_element = getElementById("truths")
+  var truth_element = document.getElementById("truths")
   truth_element.innerHtml = ""
   truths.forEach(value, index => {
     truth_element.innerhtml += index + " " + value + "\n"
