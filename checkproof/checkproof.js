@@ -3,6 +3,7 @@
 var truths_element
 var proof_element
 var thing_to_prove_element
+var truths = []
 
 function validate_proof(thing_to_prove, proof) {
   alert("Checking proof of " + thing_to_prove)
@@ -19,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 });
 
 
-var truths = []
+
 
 function seed_truths() {
   truths.push("0 Rule 0")
@@ -34,9 +35,10 @@ function display_truths() {
 }
 
 function check_proof() {
+  alert('calling validateproof')
   var thing_to_prove = thing_to_prove_element.value
   var proof = thing_to_prove_element.innerHTML.split(/\r?\n/)
-  alert('calling validateproof')
+  
   validate_proof(thing_to_prove, proof)
   display_truths()
 }
