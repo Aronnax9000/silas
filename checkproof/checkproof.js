@@ -27,7 +27,7 @@ function seed_truths() {
 }
 
 function display_truths() {
-  var
+
   truths_element.innerHTML = "Current Truths: " + truths.length + "\n"
   truths.forEach((value, index, array) => {
     truths_element.innerHTML +=  "Truth " + index + ": " + value + "\n"
