@@ -20,11 +20,13 @@ function check_line(proof_line) {
 }
 
 function check_rule_0(proof_line) {
+  alert('rule 0: ' + proof_line)
   if(proof_line == '0')
     return true
   return false
 }
 function check_rule_S(proof_line) {
+  alert('rule S: ' + proof_line)
   truths.forEach((truth) => { 
     carving = truth.split(" ")[0]
     if(proof_line == "S" + carving) {
