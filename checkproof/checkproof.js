@@ -2,6 +2,7 @@
 
 document.addEventListener("DOMContentLoaded", function(event) { 
   seed_truths()
+  display_truths()
 });
 
 
