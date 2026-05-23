@@ -17,6 +17,7 @@ function check_line(proof_line) {
 document.addEventListener("DOMContentLoaded", function(event) { 
   truths_element = document.getElementById("truths")
   thing_to_prove_element = document.getElementById("thing_to_prove")
+  proof_element = document.getElementById("proof")
   // seed_truths()
   display_truths()
   // Add button click listener
