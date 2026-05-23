@@ -27,9 +27,9 @@ function check_rule_0(proof_line) {
 function check_rule_S(proof_line) {
   
   truths.forEach((truth) => { 
-    carving = truth.split(" ")[0]
-    alert('rule S: ' + proof_line)
-    if(proof_line == "S" + carving) {
+    carving = "S" + truth.split(" ")[0]
+    alert('rule S: ' + proof_line + "C" + carving)
+    if(proof_line == carving) {
       return true
     }
     return false
