@@ -12,7 +12,7 @@ function display(message) {
 
 function validate_proof(thing_to_prove, proof) {
   display("Checking proof of " + thing_to_prove + ":\n" + proof)
-  proof.every(check_line(proof_line))
+  proof.every((proof_line) => check_line(proof_line))
 }
 
 function check_line(proof_line) {
@@ -31,7 +31,7 @@ function check_rule_0(proof_line) {
 
 function check_rule_S(proof_line) {
   
-  truths.some(truth => { 
+  truths.some((truth) => { 
     carving = "S" + truth.split(" ")[0]
     display('rule S: ' + proof_line + "C" + carving + ".")
     if(proof_line == carving) {
