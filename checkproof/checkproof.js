@@ -65,6 +65,14 @@ function display_truths() {
 function check_proof() {
   var thing_to_prove = thing_to_prove_element.value
   var proof = proof_element.value.split(/\r?\n/)
+  if(thing_to_prove = "") {
+    alert ('You must enter a thing to prove!')
+    return false
+  }
+  if(proof = "") {
+    alert ('You must enter a proof!')
+    return false
+  }
   truths.length = 0
   validate_proof(thing_to_prove, proof)
   display_truths()
