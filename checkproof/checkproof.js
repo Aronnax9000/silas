@@ -3,6 +3,7 @@
 var truths_element
 var proof_element
 var thing_to_prove_element
+var message_element
 var truths = []
 
 function display(message) {
