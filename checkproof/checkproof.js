@@ -11,7 +11,7 @@ function display(message) {
 }
 
 function validate_proof(thing_to_prove, proof) {
-  message("Checking proof of " + thing_to_prove + ":\n" + proof)
+  display("Checking proof of " + thing_to_prove + ":\n" + proof)
   proof.every((proof_line) => { check_line(proof_line) })
 }
 
