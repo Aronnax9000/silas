@@ -5,9 +5,13 @@ var proof_element
 var thing_to_prove_element
 var truths = []
 
+function display(message) {
+  message_element.innerHTML += message + "\n"
+}
+
 function validate_proof(thing_to_prove, proof) {
   alert("Checking proof of " + thing_to_prove + ":\n" + proof)
-  proof.forEach((proof_line) => { check_line(proof_line) })
+  proof.every((proof_line) => { check_line(proof_line) })
 }
 
 function check_line(proof_line) {
@@ -15,23 +19,22 @@ function check_line(proof_line) {
   if(check_rule_0(proof_line)) { 
     truths.push(proof_line + " Rule 0")
   } else if(check_rule_S(proof_line)) {
-    alert("pushing " + proof_line)
+    display("pushing " + proof_line)
     truths.push(proof_line + " Rule S")
   }
 }
 
 function check_rule_0(proof_line) {
-  if(proof_line == '0')
-    return true
-  return false
+  return (proof_line == '0')
 }
+
 function check_rule_S(proof_line) {
   
-  truths.forEach((truth) => { 
+  truths.some((truth) => { 
     carving = "S" + truth.split(" ")[0]
-    alert('rule S: ' + proof_line + "C" + carving + ".")
+    display('rule S: ' + proof_line + "C" + carving + ".")
     if(proof_line == carving) {
-      alert("it's true!")
+      display("it's true!")
        truths.push(proof_line + " Rule S")
       return true
     }
@@ -43,6 +46,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
   truths_element = document.getElementById("truths")
   thing_to_prove_element = document.getElementById("thing_to_prove")
   proof_element = document.getElementById("proof")
+  message_element = document.getElementById("message")
   // Add button click listener
   document.getElementById("check_proof").addEventListener("click", check_proof)
 });
@@ -53,8 +57,7 @@ function display_truths() {
   truths_element.innerHTML = "Current Truths: " + truths.length + "\n"
   truths.forEach((value, index, array) => {
     var truth = "Truth " + index + ": " + value + "\n"
-    alert("appending truth " + truth)
-    truths_element.innerHTML +=  truth
+    display(truth)
   })
 }
 
