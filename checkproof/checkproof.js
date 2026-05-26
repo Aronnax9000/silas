@@ -11,8 +11,7 @@ function display(message) {
 }
 
 function validate_proof(thing_to_prove, proof) {
-  display("Checking proof of " + thing_to_prove + ":\n" + proof)
-  proof.every((proof_line) => check_line(proof_line))
+
 }
 
 function check_line(proof_line) {
@@ -69,11 +68,12 @@ function check_proof() {
     alert ('You must enter a thing to prove!')
     return false
   }
-  if(proof = "") {
+  if(proof.length == 0) {
     alert ('You must enter a proof!')
     return false
   }
   truths.length = 0
-  validate_proof(thing_to_prove, proof)
+  display("Checking proof of " + thing_to_prove + ":\n" + proof)
+  proof.every((proof_line) => check_line(proof_line))
   display_truths()
 }
