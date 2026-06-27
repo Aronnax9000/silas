@@ -14,3 +14,10 @@ It is always going to be that way, too. A million years from now some physicist 
 We ourselves are way further along in our understanding than Aristotle was 2000 years ago. We are even further along than the great Isaac Newton was, 400 years ago. So good for us. But let's not be like that physicist a million years from now and think too much of ourselves just because we know more than Johannes Kepler did in 1593. 
 
 Even if we knew the final laws of physics (and there actually might not be any, it's an open question), that would not explain everything except in a boring way.
+
+I didn't organize the pages I wrote for you in any way that I spent much time thinking about beforehand
+ I just jumped in with coordinate geometry and went from there. I didn't know where you were in school, grade wise (I guessed fifth grade and I was off by a year.) I did figure that you already knew addition, subtraction, multiplication and division (fractions). Since I was communicating by writing, not face to face, I would find myself, over and over again, using words and concepts that I would then think you probably hadn't had taught to you yet. Sometimes that made me tear up what I was writing, and start again. 
+ 
+Other times, when I thought of that, I just kept writing. You can use Google to look up words, and Wikipedia for better explanations and more detail than what I know, or included.
+
+Also, if what I wrote you is a school course, there's no test at the end, that you have to take or worry about passing, so sometimes I just let myself write and let my writing stand on its own. I told myself, during those times, that if there was something I was writing that you didn't "get", that at least you would have the sound of the words.
