@@ -2,7 +2,21 @@
 
 I'm going to try to make this book readable for you as a ten year old entering the fifth grade (congratulations on both). 
 
-I will try not to assume too much but here is what I figure you already have been exposed to by now, and a few notes about how the notation we use here, symbols for basic arithmetic operations and so forth, might differ from the math books you might have seen in school, which of course I have not seen.
+I will try not to assume too much about the math you have already learned.
+
+Here is what I figure you already have seen by now. 
+
+I include a few notes about how the notation we use here, symbols for basic arithmetic operations and so forth. 
+
+Some of the symbols I use might differ from the math books you might have seen in school, which of course I have not seen. 
+
+For example, X is used as the multiplication sign in elementary school arithmetic, but starting in algebra, we are going to need x as our favorite variable name, so we wind up using a different symbol for multiplication. 
+
+The raised dot is used in a lot of math textbooks for multiplication. 
+
+Most modern computer programming languages use the asterisk (*) as the symbol for multiplication (in particular, the C programming language from 1973 does, and so do many others based on it, including Python and JavaScript.) 
+
+Also, in algebra we indicate multiplication just by having the things we want to multiply right up next to each other, with no operator symbol at all. So x times y is written as xy, 2 times 4 might be written as 2(4).
 
 # Numbers
 
