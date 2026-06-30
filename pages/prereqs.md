@@ -29,6 +29,8 @@ Since you love pi, I am also assuming you know about the "real" numbers, that in
 I am assuming you have been exposed to the "real number line", a horizontal line running left to right, with zero in the middle and negative numbers to the left of zero, and positive numbers to the right of zero.
 
 
+All the above kinds of numbers I mention above (wholes, fractions, rational and irrational) are all real numbers, they all have a place on the real number line, and they are all well ordered: for any two real numbers, one of them is always bigger than or less than the other, unless they are equal.
+
 # Basic Arithmetic 
 
 ## Addition and Subtraction 
@@ -36,3 +38,6 @@ I am assuming you have been exposed to the "real number line", a horizontal line
 ## Multiplication
 
 ## Division
+
+Already in Fourth Grade you will have seen more than one symbol for division.
+
