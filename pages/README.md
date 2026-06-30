@@ -22,4 +22,4 @@ Other times, when I thought of that, I just kept writing. You can use Google to 
 
 Also, if what I wrote you is a school course, there's no test at the end, that you have to take or worry about passing, so sometimes I just let myself write and let my writing stand on its own. I told myself, during those times, that if there was something I was writing that you didn't "get", that at least you would have the sound of the words.
 
-The next page in our journey is called (prereqs.md)[prereqs.md]
+The next page in our journey is called [prereqs.md](prereqs.md)
