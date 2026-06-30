@@ -1,4 +1,4 @@
-# Prerequisites 
+I'm# Prerequisites 
 
 I'm going to try to make this book readable for you as a ten year old entering the fifth grade (congratulations on both). 
 
@@ -34,6 +34,10 @@ All the above kinds of numbers I mention above (wholes, fractions, rational and 
 # Basic Arithmetic 
 
 ## Addition and Subtraction 
+
+Subtracting a negative number is like adding a positive number. 
+
+a - b 
 
 ## Multiplication
 
