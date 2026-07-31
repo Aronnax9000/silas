@@ -1,7 +1,7 @@
 # Stuff for Silas
 
 ## [I. Pure Mathematics]()
-### [Coordinate Geometry: Points and Lines](coord)
+### [Coordinate Geometry: Points and Lines](coord/README.md)
 ### [Introduction to Statistics]()
 
 
