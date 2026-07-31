@@ -11,6 +11,11 @@
 
 ## II. Basic Physics
 ### Units and Measurement
+### Significant Figures
+### Dimensional Analysis
+### History of Physics
+### The Magic Reversing Ball Trick
+### Waves
 ### Classical Mechanics
 
 ## III. Computer Science
