@@ -2,7 +2,7 @@
 
 ## [I. Pure Mathematics]()
 ### [Coordinate Geometry: Points and Lines](coord/README.md)
-### [Introduction to Statistics]()
+### [Introduction to Statistics](stats/README.md)
 
 
 ## [II. Basic Physics]()
