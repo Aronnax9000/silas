@@ -14,7 +14,16 @@
 ### Significant Figures
 ### Dimensional Analysis
 ### History of Physics
+### Physics Before Newton
+### Copernicus and Kepler
+### Galileo
+### Galileo and Others
+### Isaac Newton Puts it All Together 
+### Newton's Laws of Motion
+### Newton's Laws Continued
+### Newton's Law of Gravitation
 ### The Magic Reversing Ball Trick
+### The Challenge 
 ### Waves
 ### Classical Mechanics
 
