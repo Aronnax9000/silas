@@ -14,6 +14,11 @@
 ### Classical Mechanics
 
 ## III. Computer Science
+### Binary Math
+### Boolean Logic
+### Set Theory
+### Propositional Logic
+### Learning Computer Programming 
 
 ## IV. Physics II
 ### Electricity and Magnetism
