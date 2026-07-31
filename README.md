@@ -1,11 +1,7 @@
 # Stuff for Silas
 
 ## [I. Pure Mathematics]()
-### [Coordinate Geometry: Points]()
-### [Coordinate Geometry: Lines]()
-### [Slope of a Line]()
-### [Y-Intercept]()
-### [Lines as Equations]()
+### [Coordinate Geometry: Points and Lines](coord)
 ### [Introduction to Statistics]()
 
 
