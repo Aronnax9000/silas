@@ -1,3 +1,5 @@
+# Hamster from Montgomery 
+
 In an Alabama classroom  
 I was born with some misgivings  
 in a lcozy nest of shavings  
@@ -25,3 +27,12 @@ I bounced off the landing
 flew down the next flight  
 and caught me some air  
 
+I am an old hamster  
+I sleep in on Sundays
+our tails are short and stubby
+but our life stories long  
+
+
+
+With our cheeks stuffed with millet  
+won't you all sing along 
