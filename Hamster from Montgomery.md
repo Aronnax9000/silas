@@ -29,7 +29,7 @@ and caught me some air
 
 I am an old hamster  
 I sleep in on Sundays
-our tails are short and stubby
+our tails are short and stubby 
 but our life stories long  
 
 
