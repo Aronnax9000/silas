@@ -2,7 +2,7 @@
 
 In an Alabama classroom  
 I was born with some misgivings  
-in a lcozy nest of shavings  
+in a cozy nest of shavings  
 from an old Georgia pine  
 Mama had post partum,  
 she ate all my siblings  
